@@ -19,9 +19,6 @@ Another interesting problem and some fixes:
 
 
 Note: this format here is to note that we need to cover this topic still  
-
-
-
 Create yet another design for a web app that you would want to use...  
 
 Create (or modify) a web page that attempts to implement yet more aspects of your design, 
