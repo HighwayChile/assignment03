@@ -66,3 +66,6 @@ have a separate page for each movie and each respective review. Must add attribu
 4. I would like to float images to the right of my ordered list of tables.
 5. create a class for the individual movie page links
 6. need to populate the individual pages for the movies, then href to them with an anchor.
+7. change multiple greaks to either float, padding, margin, sticking, anything else.  
+8. Add background image to the body, instead of html style
+
