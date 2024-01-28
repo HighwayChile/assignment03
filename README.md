@@ -52,7 +52,7 @@ Remember to turn in a link to a repo or a copy of the website here on Moodle!
 <br>
 <br>
 
-:DESIGN:  
+# :DESIGN:  
 
 1. This week I must decide whether I should proceed to develop one of my sites.  
 I think I would be using a Doge explorer more often than a movie review site for  
