@@ -49,3 +49,13 @@ sitemap,
 search boxes  
 
 Remember to turn in a link to a repo or a copy of the website here on Moodle!  
+<br>
+<br>
+
+:DESIGN:  
+
+1. This week I must decide whether I should proceed to develop one of my sites.  
+I think I would be using a Doge explorer more often than a movie review site for  
+LDP movies, but I think the LDP site has a more straightforward back end that will  
+be easier for me to make a comprehensive design.  
+2. 
