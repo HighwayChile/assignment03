@@ -68,4 +68,5 @@ have a separate page for each movie and each respective review. Must add attribu
 6. need to populate the individual pages for the movies, then href to them with an anchor.
 7. change multiple breaks to either float, padding, margin, sticking, anything else.  
 8. Add background image to the body, instead of html style
+9. must clean up stylesheet. (css code)
 

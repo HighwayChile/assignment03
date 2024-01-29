@@ -1,0 +1,55 @@
+body {
+    background-color: lightgreen;
+    font-family: arial;
+}
+
+table {
+    width: 100%;
+}
+
+caption {
+    font-style: italic;
+    font-size: 150%;
+    color: purple;
+    border: 2px solid royalblue; 
+    padding: 25px; 
+    text-align: center; 
+    font-weight: 600;
+}
+
+#loulist {
+    /* padding-top: 75%; */
+    margin-top: 75%;
+    width: 50%;
+    border: 2px solid royalblue;
+    color: purple;
+    font-weight: 400;
+    text-align: center; 
+    align-items: center;
+}
+
+.loulist_cell {
+    width: 50%;
+    border: 1px solid royalblue;
+    font-size: 200%;
+}
+
+#top_menu {
+    width: 60%;
+    margin-top: -3%;
+    text-align: center;
+    /* text-align: left; */
+    align-items: center;
+    float: right;
+    /* float: top; */
+    /* clear: left; */
+}
+
+.top_menu {
+    border: 2px solid black;
+}
+
+.top_menu_cell {
+    width: 25%;
+    border: 1px solid black;
+}
