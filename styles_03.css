@@ -1,6 +1,9 @@
 body {
     background-color: rgb(161, 236, 161);
     font-family: arial;
+    background-image: url('./img/lou-diamond-phillips-pencil-greg-joens.jpg');
+    background-repeat: repeat-x;
+    position: relative;
 }
 
 #welcome_msg {
@@ -9,22 +12,25 @@ body {
 
 /* id selector */
 #top_menu {
-    width: 50%;
+    width: 45%;
     text-align: center;
     align-items: center;
     float: right;
     border: 2px solid black;
+    background-color: lightgray;
 }
 
 .top_menu {
     position: sticky;
     top: 5px;
+    /* bottom: 0px; */
 }
 
 /* class selector */
 .top_menu_cell {
     width: 25%;
     border: 1px solid black;
+    background-color: lightgray;
 }
 
 caption {
@@ -39,7 +45,7 @@ caption {
 
 #loulist {
     /* padding-top: 75%; */
-    margin-top: 75%;
+    margin-top: 50%;
     width: 50%;
     border: 2px solid royalblue;
     background-color: goldenrod;
@@ -75,6 +81,6 @@ a:active {
 
 .top_menu_cell:hover {
     font-size: 200%;
-    background-color: lightslategray;
+    background-color: lightgray;
     /* color: white; */
 }
