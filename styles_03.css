@@ -1,15 +1,30 @@
 body {
-    background-color: lightgreen;
+    background-color: rgb(161, 236, 161);
     font-family: arial;
 }
 
-table {
-    width: 100%;
+#welcome_msg {
+    font-size: 200%;
 }
 
-#topofpage {
-    /* float: left; */
-    clear: right;
+/* id selector */
+#top_menu {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    float: right;
+    border: 2px solid black;
+}
+
+.top_menu {
+    position: sticky;
+    top: 5px;
+}
+
+/* class selector */
+.top_menu_cell {
+    width: 25%;
+    border: 1px solid black;
 }
 
 caption {
@@ -27,10 +42,12 @@ caption {
     margin-top: 75%;
     width: 50%;
     border: 2px solid royalblue;
+    background-color: goldenrod;
     color: purple;
     font-weight: 400;
     text-align: center; 
     align-items: center;
+    overflow: scroll;
 }
 
 .loulist_cell {
@@ -39,18 +56,25 @@ caption {
     font-size: 200%;
 }
 
-#top_menu {
-    width: 60%;
-    text-align: center;
-    align-items: center;
-    float: right;
+/* mouse interaction */
+a:link {
+    color: blue;
 }
 
-.top_menu {
-    border: 2px solid black;
+a:visited {
+    color: red;
 }
 
-.top_menu_cell {
-    width: 25%;
-    border: 1px solid black;
+a:hover {
+    color: darkblue;
+}
+
+a:active {
+    color: darkblue;
+}
+
+.top_menu_cell:hover {
+    font-size: 200%;
+    background-color: lightslategray;
+    /* color: white; */
 }
