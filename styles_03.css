@@ -7,6 +7,11 @@ table {
     width: 100%;
 }
 
+#topofpage {
+    /* float: left; */
+    clear: right;
+}
+
 caption {
     font-style: italic;
     font-size: 150%;
@@ -36,13 +41,9 @@ caption {
 
 #top_menu {
     width: 60%;
-    margin-top: -3%;
     text-align: center;
-    /* text-align: left; */
     align-items: center;
     float: right;
-    /* float: top; */
-    /* clear: left; */
 }
 
 .top_menu {
