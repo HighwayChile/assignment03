@@ -51,6 +51,25 @@ body {
     /* display: block; */
 }
 
+/* search-container learned from AI */
+.search_container {
+    display: flex;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100px
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: bisque;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -144,6 +163,24 @@ caption {
 #advertisement_4 {
     font-size: 18pt;
     display: none;
+}
+
+.collapsible {
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    outline: none;
+}
+
+.collapsible:hover .content{
+    display: block;
+    background-color: bisque;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
 }
 
 /* mouse interaction */

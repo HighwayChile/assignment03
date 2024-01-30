@@ -3,12 +3,8 @@ but now include additional CSS properties:
 
 
 
-vendor prefix properties,  
-collapsed containers  
 
 breadcrumbs,  
-
-search boxes  
 
 -->
 
@@ -25,15 +21,22 @@ search boxes
 </head>
 
 <body>
-  <!-- menu must be above welcome msg in order to display side by side -->
   <div class="top_menu">
     <table id="top_menu">
       <tr>
-        <td class="top_menu_cell">search</td>
+
+        <td class="top_menu_cell">
+          <div class="search_container">
+            <input type="text" id="tsearch" name="search" placeholder="Search...">
+            <button type="submit">Search</button>
+          </div>
+        </td>
+
         <td class="top_menu_cell"><a href="all_movies.html">browse</a></td>
-          <td class="top_menu_cell">
-            <!-- dropdown menu learned from w3schools https://www.w3schools.com/howto/howto_css_dropdown.asp -->
-            <div class="dropdown">
+          
+        <td class="top_menu_cell">
+        <!-- dropdown menu learned from w3schools https://www.w3schools.com/howto/howto_css_dropdown.asp -->
+          <div class="dropdown">
             <a href="genre_list.html">genre</a>
               <div class="genre_drpdwn_content">
                 <a href="horror">horror</a>
@@ -42,8 +45,9 @@ search boxes
                 <a href="romance">romance</a>
                 <a href="thriller">thriller</a>
               </div>
-            </div>
-          </td>
+          </div>
+        </td>
+
         <td class="top_menu_cell"><a href="sitemap.html">sitemap</a></td>
       </tr>
     </table>
@@ -156,7 +160,11 @@ search boxes
   <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
   <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
 
+<button type="button" class="collapsible">Open Collapsable</button>
+<div class="content">
   <p>Nothing to see here</p>
+</div>
+  <!-- <p>Nothing to see here</p> -->
   <div class="gottotop"><a href="#topofpage">Go to top</a></div>
 </body>
 
