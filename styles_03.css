@@ -1,13 +1,29 @@
 body {
     background-color: rgb(161, 236, 161);
+    font-size: 16pt;
     font-family: arial;
     background-image: url('./img/lou-diamond-phillips-pencil-greg-joens.jpg');
     background-repeat: repeat-x;
     position: relative;
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 800) {
+    body {
+        font-size: 14pt;
+    }
+}
+
+@media only screen and (min-width: 1200) {
+    body {
+        font-size: 18pt;
+    }
 }
 
 #topofpage {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 #top_menu {
@@ -18,12 +34,12 @@ body {
     border: 2px solid black;
     background-color: lightgray;
     font-weight: 600;
-    z-index: 1;
 }
 
 .top_menu {
     position: sticky;
     top: 5px;
+    z-index: 1;
 }
 
 .top_menu_cell {
@@ -31,6 +47,45 @@ body {
     border: 2px solid black;
     background-color: yellow; /* this proves the inherit is working */
     background-color: inherit;
+    /* position: relative; */
+    /* display: block; */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.genre_drpdwn_content {
+    display: none;
+    position: relative;
+    font-size: 40%;
+    z-index: 1;
+}
+
+.genre_drpdwn_content a {
+    color: black;
+    display: block;
+}
+
+.inspiring_quote {
+    font-style: italic;
+    position: absolute;
+}
+
+.side_menu {
+    width: 75px;
+    height: 400px;
+    background-color: rgb(161, 236, 161);
+    border-radius: 5px;;
+    float: left;
+    position: fixed;
+    z-index: 1;
+    font-size: 12pt;
+}
+
+#side_menu {
+    width: 10px;
 }
 
 caption {
@@ -50,7 +105,6 @@ caption {
     border: 2px solid royalblue;
     background-color: goldenrod;
     color: purple;
-    font-weight: 400;
     text-align: center; 
     align-items: center;
     overflow: scroll;
@@ -59,7 +113,7 @@ caption {
 .loulist_cell {
     width: 25%;
     border: 1px solid royalblue;
-    font-size: 200%;
+    /* font-size: 200%; */
 }
 
 .advertisement {
@@ -67,7 +121,6 @@ caption {
     height: 100px;
     overflow-y: scroll;
     border: 2px solid black; 
-    box-sizing: border-box;
     float: left;
     position: relative;
     z-index: 2;
@@ -76,11 +129,21 @@ caption {
 #advertisement_2 {
     font-size: 16pt;
     width: 400px;
-    /* height: 400px; */
+    display: inline;
     float: right;
     clear: left;
     position: relative;
     background-color: brown;
+}
+
+#advertisement_3 {
+    font-size: 16pt;
+    box-sizing: border-box;
+}
+
+#advertisement_4 {
+    font-size: 18pt;
+    display: none;
 }
 
 /* mouse interaction */
@@ -102,4 +165,12 @@ a:active {
 
 .top_menu_cell:hover {
     font-size: 200%;
+}
+
+.genre_drpdwn_content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .genre_drpdwn_content {
+    display: block;
 }

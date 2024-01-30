@@ -5,13 +5,9 @@ but now include additional CSS properties:
 
 vendor prefix properties,  
 collapsed containers  
-display,  
-fixed-width layout,  
-fluid layout, and responsive layout,  
-@media query,  
-navigation list vertical and horizontal,  
+
 breadcrumbs,  
-drop down menu,  
+
 search boxes  
 
 -->
@@ -35,11 +31,26 @@ search boxes
       <tr>
         <td class="top_menu_cell">search</td>
         <td class="top_menu_cell"><a href="all_movies.html">browse</a></td>
-        <td class="top_menu_cell">genre</td>
+          <td class="top_menu_cell">
+            <!-- dropdown menu learned from w3schools https://www.w3schools.com/howto/howto_css_dropdown.asp -->
+            <div class="dropdown">
+            <a href="genre_list.html">genre</a>
+              <div class="genre_drpdwn_content">
+                <a href="horror">horror</a>
+                <a href="western">western</a>
+                <a href="scifi">sci-fi</a>
+                <a href="romance">romance</a>
+                <a href="thriller">thriller</a>
+              </div>
+            </div>
+          </td>
         <td class="top_menu_cell"><a href="sitemap.html">sitemap</a></td>
       </tr>
     </table>
   </div>
+
+  
+
 
   <div id="topofpage"><p>louvie.com</p></div>
 
@@ -47,6 +58,22 @@ search boxes
 
   <div class="attribution"><p>Original art by Greg Joens</p></div>
 
+  <div class="side_menu">
+    <table id="side_menu">
+      <tr>
+        <td class="side_menu_cell">search</td>
+      </tr>
+      <tr>
+        <td class="side_menu_cell"><a href="all_movies.html">browse</a></td>
+      </tr>
+      <tr>
+        <td class="side_menu_cell">genre</td>
+      </tr>
+      <tr>
+        <td class="side_menu_cell"><a href="sitemap.html">sitemap</a></td>
+      </tr>
+    </table>
+  </div>
 
   <div class="movielist">
     <table id="loulist">
@@ -123,12 +150,13 @@ search boxes
   <!-- <br> <br> <br> -->
   <div class="advertisement" id="advertisement_2">**ADVERTISEMENT**<br>BUY MORE STUFF!!! <br>SERIOUSLY! BUY MORE! <br>YOU DON'T HAVE ENOUGH STUFF! <br>CONSUME! <br>BUY EVERY SINGLE ONE!</div>
   <!-- <br> <br> <br> -->
+  <div class="advertisement" id="advertisement_3">**ADVERTISEMENT**<br>BUY MORE STUFF!!! <br>SERIOUSLY! BUY MORE! <br>YOU DON'T HAVE ENOUGH STUFF! <br>CONSUME! <br>BUY EVERY SINGLE ONE!</div>
+  <div class="advertisement" id="advertisement_4">**ADVERTISEMENT**<br>BUY MORE STUFF!!! <br>SERIOUSLY! BUY MORE! <br>YOU DON'T HAVE ENOUGH STUFF! <br>CONSUME! <br>BUY EVERY SINGLE ONE!</div>
 
-  <!-- <div class="gottotop"><a href="#topofpage">Go to top</a></div> -->
   <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
   <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
 
-  <p>The z-index is displayed with the brown advertisement and the top menu</p>
+  <p>Nothing to see here</p>
   <div class="gottotop"><a href="#topofpage">Go to top</a></div>
 </body>
 
