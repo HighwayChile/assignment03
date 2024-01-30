@@ -47,8 +47,6 @@ body {
     border: 2px solid black;
     background-color: yellow; /* this proves the inherit is working */
     background-color: inherit;
-    /* position: relative; */
-    /* display: block; */
 }
 
 /* search-container learned from AI */
@@ -132,7 +130,6 @@ caption {
 .loulist_cell {
     width: 25%;
     border: 1px solid royalblue;
-    /* font-size: 200%; */
 }
 
 .advertisement {
