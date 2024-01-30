@@ -2,28 +2,19 @@
 but now include additional CSS properties:  
 
 
-background color,  
-background image,  
-overflow,  
-box sizing,  
+
 vendor prefix properties,  
-float,  
-inheritance,  
-clear,  
 collapsed containers  
-(clearfix and overflow),  
-position,  
-z-index,  
 display,  
 fixed-width layout,  
 fluid layout, and responsive layout,  
 @media query,  
-viewport,  
 navigation list vertical and horizontal,  
 breadcrumbs,  
 drop down menu,  
-sitemap,  
-search boxes   -->
+search boxes  
+
+-->
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -50,72 +41,96 @@ search boxes   -->
     </table>
   </div>
 
-    <div id="topofpage"><p id="welcome_msg">louvie.com</p></div>
+  <div id="topofpage"><p>louvie.com</p></div>
+
+  <div class="inspiring_quote"><p>"This is where I would put an inspiring thing what Lou Diamond Phillips has said." - Lou Diamond Phillips</p></div>
+
+  <div class="attribution"><p>Original art by Greg Joens</p></div>
+
 
   <div class="movielist">
     <table id="loulist">
       <caption>How can one person make all the best movies?</caption>
-      <tr>
-          <td class="loulist_cell"><img src=".\img\la_bamba.jpg"> </td>
-          <td class="loulist_cell">La Bamba(1987)</td>
+      <tr id="la_bamba">
+          <td class="loulist_cell"><a href="./pages/la_bamba.html"><img src="./img/la_bamba.jpg"></a></td>
+          <td class="loulist_cell"><a href="./pages/la_bamba.html">La Bamba(1987)</a></td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\young_guns.jpg"> </td>
-          <td class="loulist_cell">Young Guns(1988)</td>
+          <td class="loulist_cell"><a href="./pages/young_guns.html"><img src="./img/young_guns.jpg"></a></td>
+          <td class="loulist_cell"><a href="./pages/young_guns.html">Young Guns(1988)</a></td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\renegades.jpg"> </td>
-          <td class="loulist_cell">Renegades(1989)</td>
+          <td class="loulist_cell"><a href="./pages/renegades.html"><img src="./img/renegades.jpg"></a></td>
+          <td class="loulist_cell"><a href="./pages/renegades.html">Renegades(1989)</a></td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\demon_wind.jpg"> </td>
-          <td class="loulist_cell">Demon Wind(1990)</td>
+          <td class="loulist_cell"><a href="./pages/demon_wind.html"><img src="./img/demon_wind.jpg"></a></td>
+          <td class="loulist_cell"><a href="./pages/demon_wind.html">Demon Wind(1990)</a></td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\first_power.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/first_power.jpg"> </td>
           <td class="loulist_cell">The First Power(1990)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\young_guns_ii.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/young_guns_ii.jpg"> </td>
           <td class="loulist_cell">Young Guns 2(1990)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\shadow_of_the_wolf.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/shadow_of_the_wolf.jpg"> </td>
           <td class="loulist_cell">Shadow of the Wolf(1992)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\sioux_city.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/sioux_city.jpg"> </td>
           <td class="loulist_cell">Sioux City(1994)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\courage_under_fire.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/courage_under_fire.jpg"> </td>
           <td class="loulist_cell">Courage Under Fire(1996)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\big_hit.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/big_hit.jpg"> </td>
           <td class="loulist_cell">The Big Hit(1998)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\bats.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/bats.jpg"> </td>
           <td class="loulist_cell">Bats(1999)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\absolon.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/absolon.jpg"> </td>
           <td class="loulist_cell">Absolon(2003)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
       <tr>
-          <td class="loulist_cell"><img src=".\img\angel_and_badman.jpg"> </td>
+          <td class="loulist_cell"><img src="./img/angel_and_badman.jpg"> </td>
           <td class="loulist_cell">Angel and the Badman(2009)</td>
+          <td class="review">Generic review goes here</td>
       </tr>
     </table>
   </div>
 
+  <div class="advertisement">**ADVERTISEMENT**<br>BUY MORE STUFF!!! <br>SERIOUSLY! BUY MORE! <br>YOU DON'T HAVE ENOUGH STUFF! <br>CONSUME! <br>BUY EVERY SINGLE ONE!</div>
+  <!-- <br> <br> <br> -->
+  <div class="advertisement" id="advertisement_2">**ADVERTISEMENT**<br>BUY MORE STUFF!!! <br>SERIOUSLY! BUY MORE! <br>YOU DON'T HAVE ENOUGH STUFF! <br>CONSUME! <br>BUY EVERY SINGLE ONE!</div>
+  <!-- <br> <br> <br> -->
 
+  <!-- <div class="gottotop"><a href="#topofpage">Go to top</a></div> -->
+  <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
+  <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
 
-
-
+  <p>The z-index is displayed with the brown advertisement and the top menu</p>
+  <div class="gottotop"><a href="#topofpage">Go to top</a></div>
 </body>
-
 
 
 </html>
