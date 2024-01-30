@@ -1,15 +1,22 @@
+
 body {
+    /* background image and color */
     background-color: rgb(161, 236, 161);
+    background-image: url('./img/lou-diamond-phillips-pencil-greg-joens.jpg');
     font-size: 16pt;
     font-family: arial;
-    background-image: url('./img/lou-diamond-phillips-pencil-greg-joens.jpg');
     background-repeat: repeat-x;
+    /* postion */
     position: relative;
+    /* box-sizing */
     background-clip: border-box;
+    /* vendor prefix */
     -webkit-background-clip: border-box;
+    /* z-index */
     z-index: 0;
 }
 
+/* I believe this media query will change the size of font according to screen size. */
 @media only screen and (max-width: 800) {
     body {
         font-size: 14pt;
@@ -30,6 +37,7 @@ body {
     width: 45%;
     text-align: center;
     align-items: center;
+    /* float */
     float: right;
     border: 2px solid black;
     background-color: lightgray;
@@ -46,11 +54,13 @@ body {
     width: 25%;
     border: 2px solid black;
     background-color: yellow; /* this proves the inherit is working */
+    /* inheritance */
     background-color: inherit;
 }
 
 /* search-container learned from AI */
 .search_container {
+    /* display */
     display: flex;
 }
 
@@ -68,6 +78,7 @@ button:hover {
     background-color: bisque;
 }
 
+/* dropdown menu learned from w3schools https://www.w3schools.com/howto/howto_css_dropdown.asp */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -117,6 +128,7 @@ caption {
 }
 
 #loulist {
+    /* responsive layout */
     margin-top: 50%;
     width: 100%;
     border: 2px solid royalblue;
@@ -124,15 +136,18 @@ caption {
     color: purple;
     text-align: center; 
     align-items: center;
+    /* overflow */
     overflow: scroll;
 }
 
 .loulist_cell {
+    /* fluid layout */
     width: 25%;
     border: 1px solid royalblue;
 }
 
 .advertisement {
+    /* fixed width */
     width: 150px;
     height: 100px;
     overflow-y: scroll;
@@ -147,6 +162,7 @@ caption {
     width: 400px;
     display: inline;
     float: right;
+    /* clear */
     clear: left;
     position: relative;
     background-color: brown;
@@ -154,6 +170,7 @@ caption {
 
 #advertisement_3 {
     font-size: 16pt;
+    /* box-sizing */
     box-sizing: border-box;
 }
 
