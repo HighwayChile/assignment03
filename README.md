@@ -4,6 +4,8 @@ CS290 html page 03
 Module 3:  
 <br>  
 
+# "assignment03.html" is the main page
+
 # DESIGN  
 
 1. This week I must decide whether I should proceed to develop one of my sites. I think I would be using a Doge explorer more often than a movie review site for LDP movies, but I think the LDP site has a more straightforward back end that will be easier for me to make a comprehensive design.  
@@ -16,4 +18,7 @@ Module 3:
 7. change multiple breaks to either float, padding, margin, sticking, anything else.   
 8. Add background image to the body, instead of html style
 9. must clean up stylesheet. (css code)  
+10. Make the review section into a separate article so it drops below when on phone
+11. Make left side nav bar disappear until hover.
+12. Get @media and collapsible to work
 
