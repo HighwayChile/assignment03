@@ -95,8 +95,13 @@ button:hover {
 }
 
 .genre_drpdwn_content {
+    /* margin-top: 5px; */
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: lightgray;
     display: none;
-    position: relative;
+    position: absolute;
     font-size: 40%;
     z-index: 1;
 }
@@ -125,12 +130,10 @@ button:hover {
 
 #side_menu {
     width: 10px;
-    /* border: 2px solid black; */
 }
 
 .movielist {
     margin-top: 50%;
-    /* padding-left: 8%; */
 }
 
 caption {
@@ -243,5 +246,5 @@ a:active {
 }
 
 .dropdown:hover .genre_drpdwn_content {
-    display: block;
+    display: grid;
 }
