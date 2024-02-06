@@ -4,7 +4,6 @@ body {
     background-image: url('./img/lou-diamond-phillips-pencil-greg-joens.jpg');
     font-size: 16pt;
     font-family: arial;
-    /* background-repeat: repeat-x; */
     background-repeat: no-repeat;
     background-position-x: center;
     /* postion */
@@ -119,10 +118,6 @@ button:hover {
     font-size: 12pt;
 }
 
-/* .movielist {
-    margin-top: 40%;
-} */
-
 caption {
     font-style: italic;
     font-size: 150%;
@@ -203,18 +198,17 @@ caption {
     outline: none;
 }
 
-.collapsible:hover .content{
-    display: block;
-    background-color: bisque;
-}
-
 .content {
-    padding: 0 18px;
     display: none;
-    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
 }
 
-/* mouse interaction */
+.content.show {
+    display: block;
+}
+
 a:link {
     color: blue;
 }
@@ -244,6 +238,7 @@ a:active {
 }
 
 
+/* @media parameters */
 @media screen and (max-width: 800px) {
     body {
         background-position-y: 50px;
@@ -253,20 +248,17 @@ a:active {
     .side_menu {
         display: none;
     }
-
-
 }
 
-/* this makes room for side menu */
+/* this makes room for side menu/reviews */
 @media screen and (min-width: 800px) {
     .review {
         padding-left: 70px;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 18pt;
+        font-size: 12pt;
     }
 }
