@@ -96,7 +96,7 @@ button:hover {
 }
 
 .inspiring_quote {
-
+    text-shadow: 4px 4px 8px white;
     text-align: center;
     font-style: italic;
 }
