@@ -4,24 +4,22 @@ body {
     background-image: url('./img/lou-diamond-phillips-pencil-greg-joens.jpg');
     font-size: 16pt;
     font-family: arial;
-    background-repeat: repeat-x;
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-position-x: center;
     /* postion */
     position: relative;
     /* box-sizing */
-    /* background-clip: border-box; */
+    background-clip: border-box;
     /* vendor prefix */
-    /* -webkit-background-clip: border-box; */
+    -webkit-background-clip: border-box;
     /* z-index */
     z-index: 0;
 }
 
 article {
     flex: 1;
-    /* margin: 10px; */
-    /* padding: 20px; */
     border: 2px solid royalblue;
-    /* align-items: center; */
-
 }
 
 #topofpage {
@@ -53,7 +51,7 @@ article {
     background-color: inherit;
 }
 
-/* search-container learned from AI */
+/* search-container learned from chatgpt */
 .search_container {
     /* display */
     display: flex;
@@ -81,7 +79,6 @@ button:hover {
 }
 
 .genre_drpdwn_content {
-    /* margin-top: 5px; */
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -93,13 +90,21 @@ button:hover {
 }
 
 .genre_drpdwn_content a {
+    font-size: 150%;
     color: black;
     display: block;
 }
 
 .inspiring_quote {
+
+    text-align: center;
     font-style: italic;
-    position: absolute;
+}
+
+.attribution {
+    padding-top: 40%;
+    font-size: 10pt;
+    text-align: center;
 }
 
 .side_menu {
@@ -114,10 +119,9 @@ button:hover {
     font-size: 12pt;
 }
 
-
-.movielist {
-    margin-top: 50%;
-}
+/* .movielist {
+    margin-top: 40%;
+} */
 
 caption {
     font-style: italic;
@@ -241,9 +245,15 @@ a:active {
 
 
 @media screen and (max-width: 800px) {
+    body {
+        background-position-y: 50px;
+        background-size: 75%;
+    }
+    
     .side_menu {
         display: none;
     }
+
 
 }
 
